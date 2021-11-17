@@ -1,5 +1,5 @@
 var demo = new Moovie({
-  selector: "#example",
+  selector: "#Player",
   icons: {
     path: "https://raw.githubusercontent.com/BMSVieira/moovie.js/main/icons/"
   }
