@@ -13,3 +13,4 @@ if (Hls.isSupported()) {
     console.log("Ready to play!");
   });
 }
+
