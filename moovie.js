@@ -1,8 +1,10 @@
-var demo = new Moovie({
-  selector: "#Player",
-  icons: {
-    path: "https://raw.githubusercontent.com/BMSVieira/moovie.js/main/icons/"
-  }
+document.addEventListener("DOMContentLoaded", function() {
+   var demo = new Moovie({
+     selector: "#example",
+     dimensions: {
+          width: "100%"
+     }
+   });
 });
 var video = demo.video;
 if (Hls.isSupported()) {
